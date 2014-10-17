@@ -16,3 +16,6 @@ def is_available(move=None, snake1=None, snake2=None, food=None, data=None, boar
     if move == 'r' and Point(x=snake1.head.x+1, y=snake1.head.y) in unavailable_points:
         return False
     return True
+
+#example use
+is_available(move='r', snake1, snake2, food, data, board_width, board_height)
