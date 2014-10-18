@@ -1,4 +1,7 @@
 def move(snake1=None, snake2=None, food=None, data=None, board_width=None, board_height=None):
+    """
+    Code that scored second place in pysnake contest on PyconPL'2014
+    """
     from collections import namedtuple
     Point = namedtuple('Point', 'x y') # point instances
 
